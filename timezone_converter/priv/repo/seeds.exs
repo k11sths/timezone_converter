@@ -1,11 +1,13 @@
-# Script for populating the database. You can run it as:
-#
-#     mix run priv/repo/seeds.exs
-#
-# Inside the script, you can read and write to any of your
-# repositories directly:
-#
-#     TimezoneConverter.Repo.insert!(%TimezoneConverter.SomeSchema{})
-#
-# We recommend using the bang functions (`insert!`, `update!`
-# and so on) as they will fail if something goes wrong.
+alias TimezoneConverter.Cities
+
+"./priv/supported_cities.csv"
+|> Path.expand()
+|> File.stream!()
+|> CSV.decode!(
+  separator: ?;,
+  headers: [:country_code, :country_name, :name, :gmt_offset],
+  field_transform: &String.trim/1
+)
+|> Enum.each(fn %{gmt_offset: gmt_offset} = city ->
+  Cities.create!(%{city | gmt_offset: String.to_integer(gmt_offset)})
+end)
