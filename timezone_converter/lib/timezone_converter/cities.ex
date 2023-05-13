@@ -5,8 +5,8 @@ defmodule TimezoneConverter.Cities do
 
   import Ecto.Query, warn: false
 
-  alias TimezoneConverter.Repo
   alias TimezoneConverter.Cities.SupportedCity
+  alias TimezoneConverter.Repo
 
   ## User registration
 

@@ -33,6 +33,7 @@ defmodule TimezoneConverter.MixProject do
   defp deps do
     [
       {:bcrypt_elixir, "~> 3.0"},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:csv, "~> 3.0"},
       {:phoenix, "~> 1.7.0-rc.1", override: true},
       {:phoenix_ecto, "~> 4.4"},

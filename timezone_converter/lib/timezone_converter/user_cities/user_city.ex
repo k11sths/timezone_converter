@@ -1,4 +1,6 @@
 defmodule TimezoneConverter.UserCities.UserCity do
+  @moduledoc false
+
   use Ecto.Schema
   import Ecto.Changeset
 

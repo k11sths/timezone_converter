@@ -6,7 +6,7 @@ defmodule TimezoneConverter.Accounts do
   import Ecto.Query, warn: false
   alias TimezoneConverter.Repo
 
-  alias TimezoneConverter.Accounts.{User, UserToken, UserNotifier}
+  alias TimezoneConverter.Accounts.{User, UserNotifier, UserToken}
 
   ## Database getters
 

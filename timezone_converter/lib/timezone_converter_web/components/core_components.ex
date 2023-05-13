@@ -11,7 +11,9 @@ defmodule TimezoneConverterWeb.CoreComponents do
   """
   use Phoenix.Component
 
+  alias Phoenix.HTML.Form
   alias Phoenix.LiveView.JS
+
   import TimezoneConverterWeb.Gettext
 
   @doc """
@@ -244,7 +246,7 @@ defmodule TimezoneConverterWeb.CoreComponents do
   @doc """
   Renders an input with label and error messages.
 
-  A `%Phoenix.HTML.Form{}` and field name may be passed to the input
+  A `%Form{}` and field name may be passed to the input
   to build input names and error messages, or all the attributes and
   errors may be passed explicitly.
 
@@ -264,11 +266,11 @@ defmodule TimezoneConverterWeb.CoreComponents do
   )
 
   attr(:value, :any)
-  attr(:field, :any, doc: "a %Phoenix.HTML.Form{}/field name tuple, for example: {f, :email}")
+  attr(:field, :any, doc: "a %Form{}/field name tuple, for example: {f, :email}")
   attr(:errors, :list)
   attr(:checked, :boolean, doc: "the checked flag for checkbox inputs")
   attr(:prompt, :string, default: nil, doc: "the prompt for select inputs")
-  attr(:options, :list, doc: "the options to pass to Phoenix.HTML.Form.options_for_select/2")
+  attr(:options, :list, doc: "the options to pass to Form.options_for_select/2")
   attr(:multiple, :boolean, default: false, doc: "the multiple flag for select inputs")
   attr(:rest, :global, include: ~w(autocomplete cols disabled form max maxlength min minlength
                                    pattern placeholder readonly required rows size step))
@@ -278,11 +280,11 @@ defmodule TimezoneConverterWeb.CoreComponents do
     assigns
     |> assign(field: nil)
     |> assign_new(:name, fn ->
-      name = Phoenix.HTML.Form.input_name(form, field_name)
+      name = Form.input_name(form, field_name)
       if assigns.multiple, do: name <> "[]", else: name
     end)
-    |> assign_new(:id, fn -> Phoenix.HTML.Form.input_id(form, field_name) end)
-    |> assign_new(:value, fn -> Phoenix.HTML.Form.input_value(form, field_name) end)
+    |> assign_new(:id, fn -> Form.input_id(form, field_name) end)
+    |> assign_new(:value, fn -> Form.input_value(form, field_name) end)
     |> assign_new(:errors, fn -> translate_errors(form.errors || [], field_name) end)
     |> input()
   end
@@ -291,11 +293,11 @@ defmodule TimezoneConverterWeb.CoreComponents do
     assigns
     |> assign(field: nil)
     |> assign_new(:name, fn ->
-      name = Phoenix.HTML.Form.input_name(f, field)
+      name = Form.input_name(f, field)
       if assigns.multiple, do: name <> "[]", else: name
     end)
-    |> assign_new(:id, fn -> Phoenix.HTML.Form.input_id(f, field) end)
-    |> assign_new(:value, fn -> Phoenix.HTML.Form.input_value(f, field) end)
+    |> assign_new(:id, fn -> Form.input_id(f, field) end)
+    |> assign_new(:value, fn -> Form.input_value(f, field) end)
     |> assign_new(:errors, fn -> translate_errors(f.errors || [], field) end)
     |> input()
   end
@@ -332,7 +334,7 @@ defmodule TimezoneConverterWeb.CoreComponents do
         {@rest}
       >
         <option :if={@prompt} value=""><%= @prompt %></option>
-        <%= Phoenix.HTML.Form.options_for_select(@options, @value) %>
+        <%= Form.options_for_select(@options, @value) %>
       </select>
       <.error :for={msg <- @errors}><%= msg %></.error>
     </div>

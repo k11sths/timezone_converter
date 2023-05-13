@@ -1,4 +1,6 @@
 defmodule TimezoneConverterWeb.UserAuth do
+  @moduledoc false
+
   use TimezoneConverterWeb, :verified_routes
 
   import Plug.Conn
