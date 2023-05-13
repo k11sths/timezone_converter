@@ -17,12 +17,6 @@ defmodule TimezoneConverterWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", TimezoneConverterWeb do
-    pipe_through :browser
-
-    get "/", PageController, :home
-  end
-
   # Other scopes may use custom stacks.
   # scope "/api", TimezoneConverterWeb do
   #   pipe_through :api
@@ -69,6 +63,14 @@ defmodule TimezoneConverterWeb.Router do
       live "/users/settings", UserSettingsLive, :edit
       live "/users/settings/confirm_email/:token", UserSettingsLive, :confirm_email
     end
+
+    live "/", UserCityLive.Index, :index
+    live "/user_cities", UserCityLive.Index, :index
+    live "/user_cities/new", UserCityLive.Index, :new
+    live "/user_cities/:id/edit", UserCityLive.Index, :edit
+
+    live "/user_cities/:id", UserCityLive.Show, :show
+    live "/user_cities/:id/show/edit", UserCityLive.Show, :edit
   end
 
   scope "/", TimezoneConverterWeb do

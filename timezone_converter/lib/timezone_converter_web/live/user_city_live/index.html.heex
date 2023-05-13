@@ -1,0 +1,41 @@
+<.header>
+  Listing User cities
+  <:actions>
+    <.link patch={~p"/user_cities/new"}>
+      <.button>New User city</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.table
+  id="user_cities"
+  rows={@user_cities}
+  row_click={fn user_city -> JS.navigate(~p"/user_cities/#{user_city}") end}
+>
+  <:col :let={user_city} label="User"><%= user_city.user_id %></:col>
+  <:col :let={user_city} label="City"><%= user_city.city_id %></:col>
+  <:action :let={user_city}>
+    <.link
+      phx-click={JS.push("delete", value: %{id: user_city.id}) |> hide("##{user_city.id}")}
+      data-confirm="Are you sure?"
+    >
+      Delete
+    </.link>
+  </:action>
+</.table>
+
+<.modal
+  :if={@live_action in [:new, :edit]}
+  id="user_city-modal"
+  show
+  on_cancel={JS.patch(~p"/user_cities")}
+>
+  <.live_component
+    module={TimezoneConverterWeb.UserCityLive.FormComponent}
+    id={@user_city.id || :new}
+    title={@page_title}
+    action={@live_action}
+    user_city={@user_city}
+    patch={~p"/user_cities"}
+  />
+</.modal>
