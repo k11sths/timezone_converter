@@ -17,8 +17,8 @@ defmodule TimezoneConverter.UserCities do
       [%UserCity{}, ...]
 
   """
-  def list_user_cities do
-    UserCity |> order_by(desc: :id) |> Repo.all()
+  def list_user_cities(user_id) do
+    UserCity |> where(user_id: ^user_id) |> order_by(desc: :id) |> Repo.all()
   end
 
   @doc """
@@ -50,10 +50,8 @@ defmodule TimezoneConverter.UserCities do
       {:error, %Ecto.Changeset{}}
 
   """
-  def create_user_city(attrs \\ %{}) do
-    %UserCity{}
-    |> UserCity.changeset(attrs)
-    |> Repo.insert()
+  def create_user_city(changeset) do
+    Repo.insert(changeset)
   end
 
   @doc """

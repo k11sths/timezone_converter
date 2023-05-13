@@ -1,12 +1,15 @@
 defmodule TimezoneConverterWeb.UserCityLive.Index do
   use TimezoneConverterWeb, :live_view
 
+  on_mount {TimezoneConverterWeb.UserAuth, :mount_current_user}
+
   alias TimezoneConverter.UserCities
   alias TimezoneConverter.UserCities.UserCity
 
   @impl true
   def mount(_params, _session, socket) do
-    user_cities = UserCities.list_user_cities()
+    %{assigns: %{current_user: %{id: user_id}}} = socket
+    user_cities = UserCities.list_user_cities(user_id)
 
     socket = assign(socket, :user_cities, user_cities)
 
@@ -18,16 +21,12 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
     {:noreply, apply_action(socket, socket.assigns.live_action, params)}
   end
 
-  defp apply_action(socket, :edit, %{"id" => id}) do
-    socket
-    |> assign(:page_title, "Edit User city")
-    |> assign(:user_city, UserCities.get_user_city!(id))
-  end
-
   defp apply_action(socket, :new, _params) do
+    %{assigns: %{current_user: %{id: user_id}}} = socket
+
     socket
     |> assign(:page_title, "New User city")
-    |> assign(:user_city, %UserCity{})
+    |> assign(:user_city, %UserCity{user_id: user_id})
   end
 
   defp apply_action(socket, :index, _params) do
