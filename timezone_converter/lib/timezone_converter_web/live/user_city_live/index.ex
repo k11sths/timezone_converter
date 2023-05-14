@@ -10,7 +10,6 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
   def mount(_params, _session, socket) do
     %{assigns: %{current_user: %{id: user_id}}} = socket
     user_cities = UserCities.list_user_cities(user_id)
-
     socket = assign(socket, :user_cities, user_cities)
 
     {:ok, socket}
@@ -22,11 +21,9 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
   end
 
   defp apply_action(socket, :new, _params) do
-    %{assigns: %{current_user: %{id: user_id}}} = socket
-
     socket
     |> assign(:page_title, "New User city")
-    |> assign(:user_city, %UserCity{user_id: user_id})
+    |> assign(:user_city, %UserCity{})
   end
 
   defp apply_action(socket, :index, _params) do
@@ -35,9 +32,24 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
     |> assign(:user_city, nil)
   end
 
-  @impl true
-  def handle_info({TimezoneConverterWeb.UserCityLive.FormComponent, {:saved, user_city}}, socket) do
-    {:noreply, assign(socket, :user_cities, [user_city | socket.assigns.user_cities])}
+  def handle_event("save", %{"id" => supported_city_id}, socket) do
+    %{assigns: %{current_user: %{id: user_id}}} = socket
+
+    create_result =
+      %UserCity{}
+      |> UserCities.change_user_city(%{user_id: user_id, city_id: supported_city_id})
+      |> UserCities.create_user_city()
+
+    case create_result do
+      {:ok, user_city} ->
+        {:noreply,
+         socket
+         |> put_flash(:info, "User city added successfully")
+         |> assign(:user_cities, [user_city | socket.assigns.user_cities])}
+
+      {:error, _} ->
+        {:noreply, put_flash(socket, :info, "Failed to add user city")}
+    end
   end
 
   @impl true

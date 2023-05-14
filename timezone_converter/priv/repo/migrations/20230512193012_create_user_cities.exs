@@ -3,8 +3,8 @@ defmodule TimezoneConverter.Repo.Migrations.CreateUserCities do
 
   def change do
     create table(:user_cities) do
-      add :user_id, :integer
-      add :city_id, :integer
+      add :user_id, references(:users)
+      add :city_id, references(:supported_cities)
 
       timestamps()
     end

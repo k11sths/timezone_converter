@@ -18,7 +18,11 @@ defmodule TimezoneConverter.UserCities do
 
   """
   def list_user_cities(user_id) do
-    UserCity |> where(user_id: ^user_id) |> order_by(desc: :id) |> Repo.all()
+    UserCity
+    |> where(user_id: ^user_id)
+    |> order_by(desc: :id)
+    |> preload(:supported_city)
+    |> Repo.all()
   end
 
   @doc """
@@ -51,7 +55,10 @@ defmodule TimezoneConverter.UserCities do
 
   """
   def create_user_city(changeset) do
-    Repo.insert(changeset)
+    case Repo.insert(changeset) do
+      {:ok, user_city} -> {:ok, Repo.preload(user_city, :supported_city)}
+      error -> error
+    end
   end
 
   @doc """

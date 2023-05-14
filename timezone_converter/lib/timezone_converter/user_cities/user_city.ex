@@ -5,8 +5,8 @@ defmodule TimezoneConverter.UserCities.UserCity do
   import Ecto.Changeset
 
   schema "user_cities" do
-    field :city_id, :integer
-    field :user_id, :integer
+    belongs_to :user, TimezoneConverter.Accounts.User, foreign_key: :user_id
+    belongs_to :supported_city, TimezoneConverter.Cities.SupportedCity, foreign_key: :city_id
 
     timestamps()
   end
