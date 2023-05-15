@@ -1,4 +1,25 @@
 <.header>
+  <.button phx-click="reset_current_time" class="w-1/4">
+    Current
+  </.button>
+  <.simple_form for={@form} id="users_time" phx-submit="set_current_time" class="w-1/4">
+    <.input
+      field={@form[:time]}
+      type="time"
+      name="users_time"
+      id="users_time"
+      value={"#{div(@users_time.hour, 10)}#{rem(@users_time.hour, 10)}:#{div(@users_time.minute, 10)}#{rem(@users_time.minute, 10)}"}
+      errors={[]}
+    />
+    <:actions>
+      <.button class="w-full">
+        Submit
+      </.button>
+    </:actions>
+  </.simple_form>
+</.header>
+<br />
+<.header>
   Listing User cities
   <:actions>
     <.link patch={~p"/user_cities/new"}>
@@ -10,7 +31,7 @@
 <.table id="user_cities" rows={@user_cities}>
   <:col :let={user_city} label="City"><%= user_city.supported_city.name %></:col>
   <:col :let={user_city} label="Time Now">
-    <%= NaiveDateTime.to_string(user_city.time_now) %>
+    <%= "#{div(user_city.time_now.hour, 10)}#{rem(user_city.time_now.hour, 10)}:#{div(user_city.time_now.minute, 10)}#{rem(user_city.time_now.minute, 10)}" %>
   </:col>
   <:action :let={user_city}>
     <.link

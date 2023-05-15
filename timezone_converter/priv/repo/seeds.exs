@@ -5,7 +5,7 @@ alias TimezoneConverter.Cities
 |> File.stream!()
 |> CSV.decode!(
   separator: ?;,
-  headers: [:country_code, :country_name, :name, :gmt_offset],
+  headers: [:country_code, :country_name, :name, :gmt_offset, :timezone],
   field_transform: &String.trim/1
 )
 |> Enum.each(fn %{gmt_offset: gmt_offset} = city ->

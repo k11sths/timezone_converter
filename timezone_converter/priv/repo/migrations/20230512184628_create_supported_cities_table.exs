@@ -7,6 +7,7 @@ defmodule TimezoneConverter.Repo.Migrations.CreateSupportedCitiesTable do
     create table(:supported_cities) do
       add(:country_code, :string, null: false)
       add(:country_name, :string, null: false)
+      add(:timezone, :string, null: false)
       add(:name, :string, null: false)
       add(:gmt_offset, :integer, default: 0)
       timestamps()

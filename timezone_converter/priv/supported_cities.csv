@@ -1,416 +1,416 @@
-AF; Afghanistan; Kabul; 270
-AL; Albania;Tirane; 120 
-DZ; Algeria;Algiers; 60 
-AS; American Samoa;Pago_Pago; -660 
-AD; Andorra;Andorra; 120 
-AO; Angola;    Luanda; 60 
-AI; Anguilla;Anguilla; -240 
-AQ; Antarctica;Casey; 660 
-AQ; Antarctica;Davis; 420 
-AQ; Antarctica;DumontDUrville; 600 
-AQ; Antarctica;Mawson; 300 
-AQ; Antarctica;McMurdo; 720 
-AQ; Antarctica;Palmer; -180 
-AQ; Antarctica;Rothera; -180 
-AQ; Antarctica;Syowa; 180 
-AQ; Antarctica;Troll; 120 
-AQ; Antarctica;Vostok; 360 
-AG; Antigua and Barbuda;Antigua; -240 
-AR; Argentina;Buenos_Aires; -180 
-AR; Argentina;Catamarca; -180 
-AR; Argentina;Cordoba; -180 
-AR; Argentina;Jujuy; -180 
-AR; Argentina;La_Rioja; -180 
-AR; Argentina;Mendoza; -180 
-AR; Argentina;Rio_Gallegos; -180 
-AR; Argentina;Salta; -180 
-AR; Argentina;San_Juan; -180 
-AR; Argentina;San_Luis; -180 
-AR; Argentina;Tucuman; -180 
-AR; Argentina;Ushuaia; -180 
-AM; Armenia;Yerevan; 240 
-AW; Aruba;    Aruba; -240 
-AU; Australia;Macquarie; 600 
-AU; Australia;Adelaide; 570
-AU; Australia;Brisbane; 600 
-AU; Australia;Broken_Hill; 570
-AU; Australia;Darwin; 570
-AU; Australia;Eucla; 525
-AU; Australia;Hobart; 600 
-AU; Australia;Lindeman; 600 
-AU; Australia;Lord_Howe; 630
-AU; Australia;Melbourne; 600 
-AU; Australia;Perth; 480 
-AU; Australia;Sydney; 600 
-AT; Austria;Vienna; 120 
-AZ; Azerbaijan;Baku; 240 
-BS; Bahamas;Nassau; -240 
-BH; Bahrain;Bahrain; 180 
-BD; Bangladesh;Dhaka; 360 
-BB; Barbados;Barbados; -240 
-BY; Belarus;Minsk; 180 
-BE; Belgium;Brussels; 120 
-BZ; Belize;Belize; -360 
-BJ; Benin;Porto-Novo; 60 
-BM; Bermuda;Bermuda; -180 
-BT; Bhutan;Thimphu; 360 
-BO; Bolivia;La_Paz; -240 
-BQ; Bonaire Sint Eustatius and Saba;Kralendijk; -240 
-BA; Bosnia and Herzegovina;Sarajevo; 120 
-BW; Botswana;Gaborone; 120 
-BR; Brazil;Araguaina; -180 
-BR; Brazil;Bahia; -180 
-BR; Brazil;Belem; -180 
-BR; Brazil;Boa_Vista; -240 
-BR; Brazil;Campo_Grande; -240 
-BR; Brazil;Cuiaba; -240 
-BR; Brazil;Eirunepe; -300 
-BR; Brazil;Fortaleza; -180 
-BR; Brazil;Maceio; -180 
-BR; Brazil;Manaus; -240 
-BR; Brazil;Noronha; -120 
-BR; Brazil;Porto_Velho; -240 
-BR; Brazil;Recife; -180 
-BR; Brazil;Rio_Branco; -300 
-BR; Brazil;Santarem; -180 
-BR; Brazil;Sao_Paulo; -180 
-IO; British Indian Ocean Territory;Chagos; 360 
-BN; Brunei Darussalam;Brunei; 480 
-BG; Bulgaria;Sofia; 180 
-BF; Burkina Faso; Ouagadougou; 0
-BI; Burundi;Bujumbura; 120 
-KH; Cambodia;Phnom_Penh; 420 
-CM; Cameroon;Douala; 60 
-CA; Canada;Atikokan; -300 
-CA; Canada;Blanc-Sablon; -240 
-CA; Canada;Cambridge_Bay; -360 
-CA; Canada;Creston; -420 
-CA; Canada;Dawson; -420 
-CA; Canada;Dawson_Creek; -420 
-CA; Canada;Edmonton; -360 
-CA; Canada;Fort_Nelson; -420 
-CA; Canada;Glace_Bay; -180 
-CA; Canada;Goose_Bay; -180 
-CA; Canada;Halifax; -180 
-CA; Canada;Inuvik; -360 
-CA; Canada;Iqaluit; -240 
-CA; Canada;Moncton; -180 
-CA; Canada;Rankin_Inlet; -300 
-CA; Canada;Regina; -360 
-CA; Canada;Resolute; -300 
-CA; Canada;St_Johns; -150
-CA; Canada;Swift_Current; -360 
-CA; Canada;Toronto; -240 
-CA; Canada;Vancouver; -420 
-CA; Canada;Whitehorse; -420 
-CA; Canada;Winnipeg; -300 
-CV; Cape Verde;Cape_Verde; -60 
-KY; Cayman Islands;Cayman; -300 
-CF; Central African Republic; Bangui; 60 
-TD; Chad;Ndjamena; 60 
-CL; Chile;Punta_Arenas; -180 
-CL; Chile;Santiago; -240 
-CL; Chile;Easter; -360 
-CN; China;Shanghai; 480 
-CN; China;Urumqi; 360 
-CX; Christmas Island;Christmas; 420 
-CC; Cocos (Keeling) Islands;Cocos; 390
-CO; Colombia;Bogota; -300 
-KM; Comoros;Comoro; 180 
-CG; Congo;Brazzaville; 60 
-CD; Congo the Democratic Republic of the Congo;Kinshasa; 60 
-CD; Congo the Democratic Republic of the Congo;Lubumbashi; 120 
-CK; Cook Islands;Rarotonga; -600 
-CR; Costa Rica;Costa_Rica; -360 
-HR; Croatia;Zagreb; 120 
-CU; Cuba;Havana; -240 
-CW; Curaçao;Curacao; -240 
-CY; Cyprus;Famagusta; 180 
-CY; Cyprus;Nicosia; 180 
-CZ; Czech Republic;Prague; 120 
-CI; Côte d'Ivoire; Abidjan; 0
-DK; Denmark;Copenhagen; 120 
-DJ; Djibouti;Djibouti; 180 
-DM; Dominica;Dominica; -240 
-DO; Dominican; Republic	Santo_Domingo; -240 
-EC; Ecuador;Guayaquil; -300 
-EC; Ecuador;Galapagos; -360 
-EG; Egypt;Cairo; 180 
-SV; El Salvador;El_Salvador; -360 
-GQ; Equatorial Guinea;Malabo; 60 
-ER; Eritrea;Asmara; 180 
-EE; Estonia;Tallinn; 180 
-ET; Ethiopia;Addis_Ababa; 180 
-FK; Falkland Islands (Malvinas);Stanley; -180 
-FO; Faroe; Islands	Faroe; 60 
-FJ; Fiji;Fiji; 720 
-FI; Finland;Helsinki; 180 
-FR; France;Paris; 120 
-GF; French Guiana;Cayenne; -180 
-PF; French Polynesia;Gambier; -540 
-PF; French Polynesia;Marquesas; -570
-PF; French Polynesia;Tahiti; -600 
-TF; French Southern Territories;Kerguelen; 300 
-GA; Gabon;Libreville; 60 
-GM; Gambia; Banjul; 0
-GE; Georgia;Tbilisi; 240 
-DE; Germany;Berlin; 120 
-DE; Germany;Busingen; 120 
-GH; Ghana; Accra; 0
-GI; Gibraltar;Gibraltar; 120 
-GR; Greece;Athens; 180 
-GL; Greenland; Danmarkshavn; 0
-GL; Greenland;Nuuk; -120 
-GL; Greenland; Scoresbysund; 0
-GL; Greenland;Thule; -180 
-GD; Grenada;Grenada; -240 
-GP; Guadeloupe;Guadeloupe; -240 
-GU; Guam;Guam; 600 
-GT; Guatemala;Guatemala; -360 
-GG; Guernsey;Guernsey; 60 
-GN; Guinea; Conakry; 0
-GW; Guinea-Bissau; Bissau; 0
-GY; Guyana;Guyana; -240 
-HT; Haiti;Port-au-Prince; -240 
-VA; Holy See (Vatican City State);Vatican; 120 
-HN; Honduras;Tegucigalpa; -360 
-HK; Hong Kong;Hong_Kong; 480 
-HU; Hungary;Budapest; 120 
-IS; Iceland; Reykjavik; 0
-IN; India;Kolkata; 330
-ID; Indonesia;Jakarta; 420 
-ID; Indonesia;Jayapura; 540 
-ID; Indonesia;Makassar; 480 
-ID; Indonesia;Pontianak; 420 
-IR; Iran Islamic Republic of;Tehran; 210
-IQ; Iraq;Baghdad; 180 
-IE; Ireland;Dublin; 60 
-IM; Isle of Man;Isle_of_Man; 60 
-IL; Israel;Jerusalem; 180 
-IT; Italy;Rome; 120 
-JM; Jamaica;Jamaica; -300 
-JP; Japan;Tokyo; 540 
-JE; Jersey;Jersey; 60 
-JO; Jordan;Amman; 180 
-KZ; Kazakhstan;Almaty; 360 
-KZ; Kazakhstan;Aqtau; 300 
-KZ; Kazakhstan;Aqtobe; 300 
-KZ; Kazakhstan;Atyrau; 300 
-KZ; Kazakhstan;Oral; 300 
-KZ; Kazakhstan;Qostanay; 360 
-KZ; Kazakhstan;Qyzylorda; 300 
-KE; Kenya;Nairobi; 180 
-KI; Kiribati;Kanton; 780 
-KI; Kiribati;Kiritimati; 840 
-KI; Kiribati;Tarawa; 720 
-KP; Korea Democratic People's Republic of;Pyongyang; 540 
-KR; Korea Republic of;Seoul; 540 
-KW; Kuwait;Kuwait; 180 
-KG; Kyrgyzstan;Bishkek; 360 
-LA; Lao People's Democratic Republic;Vientiane; 420 
-LV; Latvia;Riga; 180 
-LB; Lebanon;Beirut; 180 
-LS; Lesotho;Maseru; 120 
-LR; Liberia; Monrovia; 0
-LY; Libya;Tripoli; 120 
-LI; Liechtenstein;Vaduz; 120 
-LT; Lithuania;Vilnius; 180 
-LU; Luxembourg;Luxembourg; 120 
-MO; Macao;Macau; 480 
-MK; Macedonia;Skopje; 120 
-MG; Madagascar;Antananarivo; 180 
-MW; Malawi;Blantyre; 120 
-MY; Malaysia;Kuala_Lumpur; 480 
-MY; Malaysia;Kuching; 480 
-MV; Maldives;Maldives; 300 
-ML; Mali; Bamako; 0
-MT; Malta;Malta; 120 
-MH; Marshall Islands;Kwajalein; 720 
-MQ; Martinique;Martinique; -240 
-MR; Mauritania; Nouakchott; 0
-MU; Mauritius;Mauritius; 240 
-YT; Mayotte;Mayotte; 180 
-MX; Mexico;Bahia_Banderas; -360 
-MX; Mexico;Cancun; -300 
-MX; Mexico;Chihuahua; -360 
-MX; Mexico;Ciudad_Juarez; -360 
-MX; Mexico;Hermosillo; -420 
-MX; Mexico;Matamoros; -300 
-MX; Mexico;Mazatlan; -420 
-MX; Mexico;Merida; -360 
-MX; Mexico;Mexico_City; -360 
-MX; Mexico;Monterrey; -360 
-MX; Mexico;Ojinaga; -300 
-MX; Mexico;Tijuana; -420 
-FM; Micronesia;Chuuk; 600 
-FM; Micronesia;Kosrae; 660 
-FM; Micronesia;Pohnpei; 660 
-MD; Moldova;Chisinau; 180 
-MC; Monaco;Monaco; 120 
-MN; Mongolia;Choibalsan; 480 
-MN; Mongolia;Hovd; 420 
-MN; Mongolia;Ulaanbaatar; 480 
-ME; Montenegro;Podgorica; 120 
-MS; Montserrat;Montserrat; -240 
-MA; Morocco;Casablanca; 60 
-MA; Morocco;El_Aaiun; 60 
-MZ; Mozambique;Maputo; 120 
-MM; Myanmar;Yangon; 390
-NA; Namibia;Windhoek; 120 
-NR; Nauru;Nauru; 720 
-NP; Nepal;Kathmandu; 345
-NL; Netherlands;Amsterdam; 120 
-NC; New Caledonia;Noumea; 660 
-NZ; New Zealand;Auckland; 720 
-NZ; New Zealand;Chatham; 765
-NI; Nicaragua;Managua; -360 
-NE; Niger;Niamey; 60 
-NG; Nigeria;Lagos; 60 
-NU; Niue;Niue; -660 
-NF; Norfolk Island;Norfolk; 660 
-MP; Northern Mariana Islands;Saipan; 600 
-NO; Norway;Oslo; 120 
-OM; Oman;Muscat; 240 
-PK; Pakistan;Karachi; 300 
-PW; Palau;Palau; 540 
-PS; Palestine; Gaza; 180 
-PA; Panama;Panama; -300 
-PG; Papua New Guinea;Bougainville; 660 
-PG; Papua New Guinea;Port_Moresby; 600 
-PY; Paraguay;Asuncion; -240 
-PE; Peru;Lima; -300 
-PH; Philippines;Manila; 480 
-PN; Pitcairn;Pitcairn; -480 
-PL; Poland;Warsaw; 120 
-PT; Portugal; Azores; 0
-PT; Portugal;Madeira; 60 
-PT; Portugal;Lisbon; 60 
-PR; Puerto Rico;Puerto_Rico; -240 
-QA; Qatar;Qatar; 180 
-RO; Romania;Bucharest; 180 
-RU; Russianm Federation;Anadyr; 720 
-RU; Russianm Federation;Barnaul; 420 
-RU; Russianm Federation;Chita; 540 
-RU; Russianm Federation;Irkutsk; 480 
-RU; Russianm Federation;Kamchatka; 720 
-RU; Russianm Federation;Khandyga; 540 
-RU; Russianm Federation;Krasnoyarsk; 420 
-RU; Russianm Federation;Magadan; 660 
-RU; Russianm Federation;Novokuznetsk; 420 
-RU; Russianm Federation;Novosibirsk; 420 
-RU; Russianm Federation;Omsk; 360 
-RU; Russianm Federation;Sakhalin; 660 
-RU; Russianm Federation;Srednekolymsk; 660 
-RU; Russianm Federation;Tomsk; 420 
-RU; Russianm Federation;Ust-Nera; 600 
-RU; Russianm Federation;Vladivostok; 600 
-RU; Russianm Federation;Yakutsk; 540 
-RU; Russianm Federation;Yekaterinburg; 300 
-RU; Russianm Federation;Astrakhan; 240 
-RU; Russianm Federation;Kaliningrad; 120 
-RU; Russianm Federation;Kirov; 180 
-RU; Russianm Federation;Moscow; 180 
-RU; Russianm Federation;Samara; 240 
-RU; Russianm Federation;Saratov; 240 
-RU; Russianm Federation;Ulyanovsk; 240 
-RU; Russianm Federation;Volgograd; 180 
-RW; Rwanda;Kigali; 120 
-RE; Réunion;Reunion; 240 
-BL; Saint Barthélemy;St_Barthelemy; -240 
-SH; Saint Helena Ascension and Tristan da Cunha; St_Helena; 0
-KN; Saint Kitts and Nevis;St_Kitts; -240 
-LC; Saint Lucia;St_Lucia; -240 
-MF; Saint Martin;Marigot; -240 
-PM; Saint Pierre and Miquelon;Miquelon; -120 
-VC; Saint Vincent and the Grenadines;St_Vincent; -240 
-WS; Samoa;Apia; 780 
-SM; San Marino;San_Marino; 120 
-ST; Sao Tome and Principe; Sao_Tome; 0
-SA; Saudi Arabia;Riyadh; 180 
-SN; Senegal; Dakar; 0
-RS; Serbia;Belgrade; 120 
-SC; Seychelles;Mahe; 240 
-SL; Sierra Leone; Freetown; 0
-SG; Singapore;Singapore; 480 
-SX; Sint Maarten (h part);Lower_Princes; -240 
-SK; Slovakia;Bratislava; 120 
-SI; Slovenia;Ljubljana; 120 
-SB; Solomon Islands;Guadalcanal; 660 
-SO; Somalia;Mogadishu; 180 
-ZA; South Africa;Johannesburg; 120 
-GS; South Georgia and the South Sandwich Islands;South_Georgia; -120 
-SS; South Sudan;Juba; 120 
-ES; Spain;Ceuta; 120 
-ES; Spain;Canary; 60 
-ES; Spain;Madrid; 120 
-LK; Sri Lanka;Colombo; 330
-SD; Sudan;Khartoum; 120 
-SR; Suriname;Paramaribo; -180 
-SJ; Svalbard and Jan Mayen;Longyearbyen; 120 
-SZ; Swaziland;Mbabane; 120 
-SE; Sweden;Stockholm; 120 
-CH; Switzerland;Zurich; 120 
-SY; Syrian Arab Republic;Damascus; 180 
-TW; Taiwan Province of China;Taipei; 480 
-TJ; Tajikistan;Dushanbe; 300 
-TZ; Tanzania United Republic;Dar_es_Salaam; 180 
-TH; Thailand;Bangkok; 420 
-TL; Timor-Leste;Dili; 540 
-TG; Togo; Lome; 0
-TK; Tokelau;Fakaofo; 780 
-TO; Tonga;Tongatapu; 780 
-TT; Trinidad and Tobago;Port_of_Spain; -240 
-TN; Tunisia;Tunis; 60 
-TR; Turkey;Istanbul; 180 
-TM; Turkmenistan;Ashgabat; 300 
-TC; Turks and Caicos Islands;Grand_Turk; -240 
-TV; Tuvalu;Funafuti; 720 
-UG; Uganda;Kampala; 180 
-UA; Ukraine;Kyiv; 180 
-UA; Ukraine;Simferopol; 180 
-AE; United Arab Emirates;Dubai; 240 
-GB; United Kingdom;London; 60 
-US; United States;Adak; -540 
-US; United States;Anchorage; -480 
-US; United States;Boise; -360 
-US; United States;Chicago; -300 
-US; United States;Denver; -360 
-US; United States;Detroit; -240 
-US; United States;Indianapolis; -240 
-US; United States;Knox; -300 
-US; United States;Marengo; -240 
-US; United States;Petersburg; -240 
-US; United States;Tell_City; -300 
-US; United States;Vevay; -240 
-US; United States;Vincennes; -240 
-US; United States;Winamac; -240 
-US; United States;Juneau; -480 
-US; United States;Louisville; -240 
-US; United States;Monticello; -240 
-US; United States;Los_Angeles; -420 
-US; United States;Menominee; -300 
-US; United States;Metlakatla; -480 
-US; United States;New_York; -240 
-US; United States;Nome; -480 
-US; United States;Beulah; -300 
-US; United States;Center; -300 
-US; United States;New_Salem; -300 
-US; United States;Phoenix; -420 
-US; United States;Sitka; -480 
-US; United States;Yakutat; -480 
-US; United States;Honolulu; -600 
-UM; United States Minor Outlying Islands;Midway; -660 
-UM; United States Minor Outlying Islands;Wake; 720 
-UY; Uruguay;Montevideo; -180 
-UZ; Uzbekistan;Samarkand; 300 
-UZ; Uzbekistan;Tashkent; 300 
-VU; Vanuatu;Efate; 660 
-VE; Venezuela Bolivarian Republic of;Caracas; -240 
-VN; Viet Nam;Ho_Chi_Minh; 420 
-VG; Virgin Islands British;Tortola; -240 
-VI; Virgin Islands U.S.;St_Thomas; -240 
-WF; Wallis and Futuna;Wallis; 720 
-YE; Yemen;Aden; 180 
-ZM; Zambia;Lusaka; 120 
-ZW; Zimbabwe;Harare; 120 
-AX; Åland Islands; Mariehamn; 180 
+AF; Afghanistan; Kabul; 270; 	Asia/Kabul
+AL; Albania;Tirane; 120 ; 	Europe/Tirane
+DZ; Algeria;Algiers; 60 ; 	Africa/Algiers
+AS; American Samoa;Pago_Pago; -660 ; 	Pacific/Pago_Pago
+AD; Andorra;Andorra; 120 ; 	Europe/Andorra
+AO; Angola;    Luanda; 60 ; 	Africa/Luanda
+AI; Anguilla;Anguilla; -240 ; 	America/Anguilla
+AQ; Antarctica;Casey; 660 ; 	Antarctica/Casey
+AQ; Antarctica;Davis; 420 ; 	Antarctica/Davis
+AQ; Antarctica;DumontDUrville; 600 ; 	Antarctica/DumontDUrville
+AQ; Antarctica;Mawson; 300 ; 	Antarctica/Mawson
+AQ; Antarctica;McMurdo; 720 ; 	Antarctica/McMurdo
+AQ; Antarctica;Palmer; -180 ; 	Antarctica/Palmer
+AQ; Antarctica;Rothera; -180 ; 	Antarctica/Rothera
+AQ; Antarctica;Syowa; 180 ; 	Antarctica/Syowa
+AQ; Antarctica;Troll; 120 ; 	Antarctica/Troll
+AQ; Antarctica;Vostok; 360 ; 	Antarctica/Vostok
+AG; Antigua and Barbuda;Antigua; -240 ; 	America/Antigua
+AR; Argentina;Buenos_Aires; -180 ; America/Argentina/Buenos_Aires
+AR; Argentina;Catamarca; -180 ; America/Argentina/Catamarca
+AR; Argentina;Cordoba; -180 ; America/Argentina/Cordoba
+AR; Argentina;Jujuy; -180 ; America/Argentina/Jujuy
+AR; Argentina;La_Rioja; -180 ; America/Argentina/La_Rioja
+AR; Argentina;Mendoza; -180 ; America/Argentina/Mendoza
+AR; Argentina;Rio_Gallegos; -180 ; America/Argentina/Rio_Gallegos
+AR; Argentina;Salta; -180 ; America/Argentina/Salta
+AR; Argentina;San_Juan; -180 ; America/Argentina/San_Juan
+AR; Argentina;San_Luis; -180 ; America/Argentina/San_Luis
+AR; Argentina;Tucuman; -180 ; America/Argentina/Tucuman
+AR; Argentina;Ushuaia; -180 ; America/Argentina/Ushuaia
+AM; Armenia;Yerevan; 240 ; 	Asia/Yerevan
+AW; Aruba;    Aruba; -240 ; 	America/Aruba
+AU; Australia;Macquarie; 600 ; 	Antarctica/Macquarie
+AU; Australia;Adelaide; 570; 	Australia/Adelaide
+AU; Australia;Brisbane; 600 ; 	Australia/Brisbane
+AU; Australia;Broken_Hill; 570; 	Australia/Broken_Hill
+AU; Australia;Darwin; 570; 	Australia/Darwin
+AU; Australia;Eucla; 525; 	Australia/Eucla
+AU; Australia;Hobart; 600 ; 	Australia/Hobart
+AU; Australia;Lindeman; 600 ; 	Australia/Lindeman
+AU; Australia;Lord_Howe; 630; 	Australia/Lord_Howe
+AU; Australia;Melbourne; 600 ; 	Australia/Melbourne
+AU; Australia;Perth; 480 ; 	Australia/Perth
+AU; Australia;Sydney; 600 ; 	Australia/Sydney
+AT; Austria;Vienna; 120 ; 	Europe/Vienna
+AZ; Azerbaijan;Baku; 240 ; 	Asia/Baku
+BS; Bahamas;Nassau; -240 ; 	America/Nassau
+BH; Bahrain;Bahrain; 180 ; 	Asia/Bahrain
+BD; Bangladesh;Dhaka; 360 ; 	Asia/Dhaka
+BB; Barbados;Barbados; -240 ; 	America/Barbados
+BY; Belarus;Minsk; 180 ; 	Europe/Minsk
+BE; Belgium;Brussels; 120 ; 	Europe/Brussels
+BZ; Belize;Belize; -360 ; 	America/Belize
+BJ; Benin;Porto-Novo; 60 ; Africa/Porto-Novo
+BM; Bermuda;Bermuda; -180 ; 	Atlantic/Bermuda
+BT; Bhutan;Thimphu; 360 ; 	Asia/Thimphu
+BO; Bolivia;La_Paz; -240 ; 	America/La_Paz
+BQ; Bonaire Sint Eustatius and Saba;Kralendijk; -240 ; 	America/Kralendijk
+BA; Bosnia and Herzegovina;Sarajevo; 120 ; 	Europe/Sarajevo
+BW; Botswana;Gaborone; 120 ; 	Africa/Gaborone
+BR; Brazil;Araguaina; -180 ; 	America/Araguaina
+BR; Brazil;Bahia; -180 ; 	America/Bahia
+BR; Brazil;Belem; -180 ; 	America/Belem
+BR; Brazil;Boa_Vista; -240 ; 	America/Boa_Vista
+BR; Brazil;Campo_Grande; -240 ; 	America/Campo_Grande
+BR; Brazil;Cuiaba; -240 ; 	America/Cuiaba
+BR; Brazil;Eirunepe; -300 ; 	America/Eirunepe
+BR; Brazil;Fortaleza; -180 ; 	America/Fortaleza
+BR; Brazil;Maceio; -180 ; 	America/Maceio
+BR; Brazil;Manaus; -240 ; 	America/Manaus
+BR; Brazil;Noronha; -120 ; 	America/Noronha
+BR; Brazil;Porto_Velho; -240 ; 	America/Porto_Velho
+BR; Brazil;Recife; -180 ; 	America/Recife
+BR; Brazil;Rio_Branco; -300 ; 	America/Rio_Branco
+BR; Brazil;Santarem; -180 ; 	America/Santarem
+BR; Brazil;Sao_Paulo; -180 ; 	America/Sao_Paulo
+IO; British Indian Ocean Territory;Chagos; 360 ; 	Indian/Chagos
+BN; Brunei Darussalam;Brunei; 480 ; 	Asia/Brunei
+BG; Bulgaria;Sofia; 180 ; 	Europe/Sofia
+BF; Burkina Faso; Ouagadougou; 0; 	Africa/Ouagadougou
+BI; Burundi;Bujumbura; 120 ; 	Africa/Bujumbura
+KH; Cambodia;Phnom_Penh; 420 ; 	Asia/Phnom_Penh
+CM; Cameroon;Douala; 60 ; 	Africa/Douala
+CA; Canada;Atikokan; -300 ; 	America/Atikokan
+CA; Canada;Blanc-Sablon; -240 ; America/Blanc-Sablon
+CA; Canada;Cambridge_Bay; -360 ; 	America/Cambridge_Bay
+CA; Canada;Creston; -420 ; 	America/Creston
+CA; Canada;Dawson; -420 ; 	America/Dawson
+CA; Canada;Dawson_Creek; -420 ; 	America/Dawson_Creek
+CA; Canada;Edmonton; -360 ; 	America/Edmonton
+CA; Canada;Fort_Nelson; -420 ; 	America/Fort_Nelson
+CA; Canada;Glace_Bay; -180 ; 	America/Glace_Bay
+CA; Canada;Goose_Bay; -180 ; 	America/Goose_Bay
+CA; Canada;Halifax; -180 ; 	America/Halifax
+CA; Canada;Inuvik; -360 ; 	America/Inuvik
+CA; Canada;Iqaluit; -240 ; 	America/Iqaluit
+CA; Canada;Moncton; -180 ; 	America/Moncton
+CA; Canada;Rankin_Inlet; -300 ; 	America/Rankin_Inlet
+CA; Canada;Regina; -360 ; 	America/Regina
+CA; Canada;Resolute; -300 ; 	America/Resolute
+CA; Canada;St_Johns; -150; 	America/St_Johns
+CA; Canada;Swift_Current; -360 ; 	America/Swift_Current
+CA; Canada;Toronto; -240 ; 	America/Toronto
+CA; Canada;Vancouver; -420 ; 	America/Vancouver
+CA; Canada;Whitehorse; -420 ; 	America/Whitehorse
+CA; Canada;Winnipeg; -300 ; 	America/Winnipeg
+CV; Cape Verde;Cape_Verde; -60 ; 	Atlantic/Cape_Verde
+KY; Cayman Islands;Cayman; -300 ; 	America/Cayman
+CF; Central African Republic; Bangui; 60 ; 	Africa/Bangui
+TD; Chad;Ndjamena; 60 ; 	Africa/Ndjamena
+CL; Chile;Punta_Arenas; -180 ; 	America/Punta_Arenas
+CL; Chile;Santiago; -240 ; 	America/Santiago
+CL; Chile;Easter; -360 ; 	Pacific/Easter
+CN; China;Shanghai; 480 ; 	Asia/Shanghai
+CN; China;Urumqi; 360 ; 	Asia/Urumqi
+CX; Christmas Island;Christmas; 420 ; 	Indian/Christmas
+CC; Cocos (Keeling) Islands;Cocos; 390; 	Indian/Cocos
+CO; Colombia;Bogota; -300 ; 	America/Bogota
+KM; Comoros;Comoro; 180 ; 	Indian/Comoro
+CG; Congo;Brazzaville; 60 ; 	Africa/Brazzaville
+CD; Congo the Democratic Republic of the Congo;Kinshasa; 60 ; 	Africa/Kinshasa
+CD; Congo the Democratic Republic of the Congo;Lubumbashi; 120 ; 	Africa/Lubumbashi
+CK; Cook Islands;Rarotonga; -600 ; 	Pacific/Rarotonga
+CR; Costa Rica;Costa_Rica; -360 ; 	America/Costa_Rica
+HR; Croatia;Zagreb; 120 ; 	Europe/Zagreb
+CU; Cuba;Havana; -240 ; 	America/Havana
+CW; Curaçao;Curacao; -240 ; 	America/Curacao
+CY; Cyprus;Famagusta; 180 ; 	Asia/Famagusta
+CY; Cyprus;Nicosia; 180 ; 	Asia/Nicosia
+CZ; Czech Republic;Prague; 120 ; 	Europe/Prague
+CI; Côte d'Ivoire; Abidjan; 0; 	Africa/Abidjan
+DK; Denmark;Copenhagen; 120 ; 	Europe/Copenhagen
+DJ; Djibouti;Djibouti; 180 ; 	Africa/Djibouti
+DM; Dominica;Dominica; -240 ; 	America/Dominica
+DO; Dominican; Republic	Santo_Domingo; -240 ; 	America/Santo_Domingo
+EC; Ecuador;Guayaquil; -300 ; 	America/Guayaquil
+EC; Ecuador;Galapagos; -360 ; 	Pacific/Galapagos
+EG; Egypt;Cairo; 180 ; 	Africa/Cairo
+SV; El Salvador;El_Salvador; -360 ; 	America/El_Salvador
+GQ; Equatorial Guinea;Malabo; 60 ; 	Africa/Malabo
+ER; Eritrea;Asmara; 180 ; 	Africa/Asmara
+EE; Estonia;Tallinn; 180 ; 	Europe/Tallinn
+ET; Ethiopia;Addis_Ababa; 180 ; 	Africa/Addis_Ababa
+FK; Falkland Islands (Malvinas);Stanley; -180 ; 	Atlantic/Stanley
+FO; Faroe; Islands	Faroe; 60 ; 	Atlantic/Faroe
+FJ; Fiji;Fiji; 720 ; 	Pacific/Fiji
+FI; Finland;Helsinki; 180 ; 	Europe/Helsinki
+FR; France;Paris; 120 ; 	Europe/Paris
+GF; French Guiana;Cayenne; -180 ; 	America/Cayenne
+PF; French Polynesia;Gambier; -540 ; 	Pacific/Gambier
+PF; French Polynesia;Marquesas; -570; 	Pacific/Marquesas
+PF; French Polynesia;Tahiti; -600 ; 	Pacific/Tahiti
+TF; French Southern Territories;Kerguelen; 300 ; 	Indian/Kerguelen
+GA; Gabon;Libreville; 60 ; 	Africa/Libreville
+GM; Gambia; Banjul; 0; 	Africa/Banjul
+GE; Georgia;Tbilisi; 240 ; 	Asia/Tbilisi
+DE; Germany;Berlin; 120 ; 	Europe/Berlin
+DE; Germany;Busingen; 120 ; 	Europe/Busingen
+GH; Ghana; Accra; 0; 	Africa/Accra
+GI; Gibraltar;Gibraltar; 120 ; 	Europe/Gibraltar
+GR; Greece;Athens; 180 ; 	Europe/Athens
+GL; Greenland; Danmarkshavn; 0; 	America/Danmarkshavn
+GL; Greenland;Nuuk; -120 ; 	America/Nuuk
+GL; Greenland; Scoresbysund; 0; 	America/Scoresbysund
+GL; Greenland;Thule; -180 ; 	America/Thule
+GD; Grenada;Grenada; -240 ; 	America/Grenada
+GP; Guadeloupe;Guadeloupe; -240 ; 	America/Guadeloupe
+GU; Guam;Guam; 600 ; 	Pacific/Guam
+GT; Guatemala;Guatemala; -360 ; 	America/Guatemala
+GG; Guernsey;Guernsey; 60 ; 	Europe/Guernsey
+GN; Guinea; Conakry; 0; 	Africa/Conakry
+GW; Guinea-Bissau; Bissau; 0; 	Africa/Bissau
+GY; Guyana;Guyana; -240 ; 	America/Guyana
+HT; Haiti;Port-au-Prince; -240 ; -au-Prince
+VA; Holy See (Vatican City State);Vatican; 120 ; 	Europe/Vatican
+HN; Honduras;Tegucigalpa; -360 ; 	America/Tegucigalpa
+HK; Hong Kong;Hong_Kong; 480 ; 	Asia/Hong_Kong
+HU; Hungary;Budapest; 120 ; 	Europe/Budapest
+IS; Iceland; Reykjavik; 0; 	Atlantic/Reykjavik
+IN; India;Kolkata; 330; 	Asia/Kolkata
+ID; Indonesia;Jakarta; 420 ; 	Asia/Jakarta
+ID; Indonesia;Jayapura; 540 ; 	Asia/Jayapura
+ID; Indonesia;Makassar; 480 ; 	Asia/Makassar
+ID; Indonesia;Pontianak; 420 ; 	Asia/Pontianak
+IR; Iran Islamic Republic of;Tehran; 210; 	Asia/Tehran
+IQ; Iraq;Baghdad; 180 ; 	Asia/Baghdad
+IE; Ireland;Dublin; 60 ; 	Europe/Dublin
+IM; Isle of Man;Isle_of_Man; 60 ; 	Europe/Isle_of_Man
+IL; Israel;Jerusalem; 180 ; 	Asia/Jerusalem
+IT; Italy;Rome; 120 ; 	Europe/Rome
+JM; Jamaica;Jamaica; -300 ; 	America/Jamaica
+JP; Japan;Tokyo; 540 ; 	Asia/Tokyo
+JE; Jersey;Jersey; 60 ; 	Europe/Jersey
+JO; Jordan;Amman; 180 ; 	Asia/Amman
+KZ; Kazakhstan;Almaty; 360 ; 	Asia/Almaty
+KZ; Kazakhstan;Aqtau; 300 ; 	Asia/Aqtau
+KZ; Kazakhstan;Aqtobe; 300 ; 	Asia/Aqtobe
+KZ; Kazakhstan;Atyrau; 300 ; 	Asia/Atyrau
+KZ; Kazakhstan;Oral; 300 ; 	Asia/Oral
+KZ; Kazakhstan;Qostanay; 360 ; 	Asia/Qostanay
+KZ; Kazakhstan;Qyzylorda; 300 ; 	Asia/Qyzylorda
+KE; Kenya;Nairobi; 180 ; 	Africa/Nairobi
+KI; Kiribati;Kanton; 780 ; 	Pacific/Kanton
+KI; Kiribati;Kiritimati; 840 ; 	Pacific/Kiritimati
+KI; Kiribati;Tarawa; 720 ; 	Pacific/Tarawa
+KP; Korea Democratic People's Republic of;Pyongyang; 540 ; 	Asia/Pyongyang
+KR; Korea Republic of;Seoul; 540 ; 	Asia/Seoul
+KW; Kuwait;Kuwait; 180 ; 	Asia/Kuwait
+KG; Kyrgyzstan;Bishkek; 360 ; 	Asia/Bishkek
+LA; Lao People's Democratic Republic;Vientiane; 420 ; 	Asia/Vientiane
+LV; Latvia;Riga; 180 ; 	Europe/Riga
+LB; Lebanon;Beirut; 180 ; 	Asia/Beirut
+LS; Lesotho;Maseru; 120 ; 	Africa/Maseru
+LR; Liberia; Monrovia; 0; 	Africa/Monrovia
+LY; Libya;Tripoli; 120 ; 	Africa/Tripoli
+LI; Liechtenstein;Vaduz; 120 ; 	Europe/Vaduz
+LT; Lithuania;Vilnius; 180 ; 	Europe/Vilnius
+LU; Luxembourg;Luxembourg; 120 ; 	Europe/Luxembourg
+MO; Macao;Macau; 480 ; 	Asia/Macau
+MK; Macedonia;Skopje; 120 ; 	Europe/Skopje
+MG; Madagascar;Antananarivo; 180 ; 	Indian/Antananarivo
+MW; Malawi;Blantyre; 120 ; 	Africa/Blantyre
+MY; Malaysia;Kuala_Lumpur; 480 ; 	Asia/Kuala_Lumpur
+MY; Malaysia;Kuching; 480 ; 	Asia/Kuching
+MV; Maldives;Maldives; 300 ; 	Indian/Maldives
+ML; Mali; Bamako; 0; 	Africa/Bamako
+MT; Malta;Malta; 120 ; 	Europe/Malta
+MH; Marshall Islands;Kwajalein; 720 ; 	Pacific/Kwajalein
+MQ; Martinique;Martinique; -240 ; 	America/Martinique
+MR; Mauritania; Nouakchott; 0; 	Africa/Nouakchott
+MU; Mauritius;Mauritius; 240 ; 	Indian/Mauritius
+YT; Mayotte;Mayotte; 180 ; 	Indian/Mayotte
+MX; Mexico;Bahia_Banderas; -360 ; 	America/Bahia_Banderas
+MX; Mexico;Cancun; -300 ; 	America/Cancun
+MX; Mexico;Chihuahua; -360 ; 	America/Chihuahua
+MX; Mexico;Ciudad_Juarez; -360 ; 	America/Ciudad_Juarez
+MX; Mexico;Hermosillo; -420 ; 	America/Hermosillo
+MX; Mexico;Matamoros; -300 ; 	America/Matamoros
+MX; Mexico;Mazatlan; -420 ; 	America/Mazatlan
+MX; Mexico;Merida; -360 ; 	America/Merida
+MX; Mexico;Mexico_City; -360 ; 	America/Mexico_City
+MX; Mexico;Monterrey; -360 ; 	America/Monterrey
+MX; Mexico;Ojinaga; -300 ; 	America/Ojinaga
+MX; Mexico;Tijuana; -420 ; 	America/Tijuana
+FM; Micronesia;Chuuk; 600 ; 	Pacific/Chuuk
+FM; Micronesia;Kosrae; 660 ; 	Pacific/Kosrae
+FM; Micronesia;Pohnpei; 660 ; 	Pacific/Pohnpei
+MD; Moldova;Chisinau; 180 ; 	Europe/Chisinau
+MC; Monaco;Monaco; 120 ; 	Europe/Monaco
+MN; Mongolia;Choibalsan; 480 ; 	Asia/Choibalsan
+MN; Mongolia;Hovd; 420 ; 	Asia/Hovd
+MN; Mongolia;Ulaanbaatar; 480 ; 	Asia/Ulaanbaatar
+ME; Montenegro;Podgorica; 120 ; 	Europe/Podgorica
+MS; Montserrat;Montserrat; -240 ; 	America/Montserrat
+MA; Morocco;Casablanca; 60 ; 	Africa/Casablanca
+MA; Morocco;El_Aaiun; 60 ; 	Africa/El_Aaiun
+MZ; Mozambique;Maputo; 120 ; 	Africa/Maputo
+MM; Myanmar;Yangon; 390; 	Asia/Yangon
+NA; Namibia;Windhoek; 120 ; 	Africa/Windhoek
+NR; Nauru;Nauru; 720 ; 	Pacific/Nauru
+NP; Nepal;Kathmandu; 345; 	Asia/Kathmandu
+NL; Netherlands;Amsterdam; 120 ; 	Europe/Amsterdam
+NC; New Caledonia;Noumea; 660 ; 	Pacific/Noumea
+NZ; New Zealand;Auckland; 720 ; 	Pacific/Auckland
+NZ; New Zealand;Chatham; 765; 	Pacific/Chatham
+NI; Nicaragua;Managua; -360 ; 	America/Managua
+NE; Niger;Niamey; 60 ; 	Africa/Niamey
+NG; Nigeria;Lagos; 60 ; 	Africa/Lagos
+NU; Niue;Niue; -660 ; 	Pacific/Niue
+NF; Norfolk Island;Norfolk; 660 ; 	Pacific/Norfolk
+MP; Northern Mariana Islands;Saipan; 600 ; 	Pacific/Saipan
+NO; Norway;Oslo; 120 ; 	Europe/Oslo
+OM; Oman;Muscat; 240 ; 	Asia/Muscat
+PK; Pakistan;Karachi; 300 ; 	Asia/Karachi
+PW; Palau;Palau; 540 ; 	Pacific/Palau
+PS; Palestine; Gaza; 180 ; 	Asia/Gaza
+PA; Panama;Panama; -300 ; 	America/Panama
+PG; Papua New Guinea;Bougainville; 660 ; 	Pacific/Bougainville
+PG; Papua New Guinea;Port_Moresby; 600 ; 	Pacific/Port_Moresby
+PY; Paraguay;Asuncion; -240 ; 	America/Asuncion
+PE; Peru;Lima; -300 ; 	America/Lima
+PH; Philippines;Manila; 480 ; 	Asia/Manila
+PN; Pitcairn;Pitcairn; -480 ; 	Pacific/Pitcairn
+PL; Poland;Warsaw; 120 ; 	Europe/Warsaw
+PT; Portugal; Azores; 0; 	Atlantic/Azores
+PT; Portugal;Madeira; 60 ; 	Atlantic/Madeira
+PT; Portugal;Lisbon; 60 ; 	Europe/Lisbon
+PR; Puerto Rico;Puerto_Rico; -240 ; 	America/Puerto_Rico
+QA; Qatar;Qatar; 180 ; 	Asia/Qatar
+RO; Romania;Bucharest; 180 ; 	Europe/Bucharest
+RU; Russianm Federation;Anadyr; 720 ; 	Asia/Anadyr
+RU; Russianm Federation;Barnaul; 420 ; 	Asia/Barnaul
+RU; Russianm Federation;Chita; 540 ; 	Asia/Chita
+RU; Russianm Federation;Irkutsk; 480 ; 	Asia/Irkutsk
+RU; Russianm Federation;Kamchatka; 720 ; 	Asia/Kamchatka
+RU; Russianm Federation;Khandyga; 540 ; 	Asia/Khandyga
+RU; Russianm Federation;Krasnoyarsk; 420 ; 	Asia/Krasnoyarsk
+RU; Russianm Federation;Magadan; 660 ; 	Asia/Magadan
+RU; Russianm Federation;Novokuznetsk; 420 ; 	Asia/Novokuznetsk
+RU; Russianm Federation;Novosibirsk; 420 ; 	Asia/Novosibirsk
+RU; Russianm Federation;Omsk; 360 ; 	Asia/Omsk
+RU; Russianm Federation;Sakhalin; 660 ; 	Asia/Sakhalin
+RU; Russianm Federation;Srednekolymsk; 660 ; 	Asia/Srednekolymsk
+RU; Russianm Federation;Tomsk; 420 ; 	Asia/Tomsk
+RU; Russianm Federation;Ust-Nera; 600 ; Asia/Ust-Nera
+RU; Russianm Federation;Vladivostok; 600 ; 	Asia/Vladivostok
+RU; Russianm Federation;Yakutsk; 540 ; 	Asia/Yakutsk
+RU; Russianm Federation;Yekaterinburg; 300 ; 	Asia/Yekaterinburg
+RU; Russianm Federation;Astrakhan; 240 ; 	Europe/Astrakhan
+RU; Russianm Federation;Kaliningrad; 120 ; 	Europe/Kaliningrad
+RU; Russianm Federation;Kirov; 180 ; 	Europe/Kirov
+RU; Russianm Federation;Moscow; 180 ; 	Europe/Moscow
+RU; Russianm Federation;Samara; 240 ; 	Europe/Samara
+RU; Russianm Federation;Saratov; 240 ; 	Europe/Saratov
+RU; Russianm Federation;Ulyanovsk; 240 ; 	Europe/Ulyanovsk
+RU; Russianm Federation;Volgograd; 180 ; 	Europe/Volgograd
+RW; Rwanda;Kigali; 120 ; 	Africa/Kigali
+RE; Réunion;Reunion; 240 ; 	Indian/Reunion
+BL; Saint Barthélemy;St_Barthelemy; -240 ; 	America/St_Barthelemy
+SH; Saint Helena Ascension and Tristan da Cunha; St_Helena; 0; 	Atlantic/St_Helena
+KN; Saint Kitts and Nevis;St_Kitts; -240 ; 	America/St_Kitts
+LC; Saint Lucia;St_Lucia; -240 ; 	America/St_Lucia
+MF; Saint Martin;Marigot; -240 ; 	America/Marigot
+PM; Saint Pierre and Miquelon;Miquelon; -120 ; 	America/Miquelon
+VC; Saint Vincent and the Grenadines;St_Vincent; -240 ; 	America/St_Vincent
+WS; Samoa;Apia; 780 ; 	Pacific/Apia
+SM; San Marino;San_Marino; 120 ; 	Europe/San_Marino
+ST; Sao Tome and Principe; Sao_Tome; 0; 	Africa/Sao_Tome
+SA; Saudi Arabia;Riyadh; 180 ; 	Asia/Riyadh
+SN; Senegal; Dakar; 0; 	Africa/Dakar
+RS; Serbia;Belgrade; 120 ; 	Europe/Belgrade
+SC; Seychelles;Mahe; 240 ; 	Indian/Mahe
+SL; Sierra Leone; Freetown; 0; 	Africa/Freetown
+SG; Singapore;Singapore; 480 ; 	Asia/Singapore
+SX; Sint Maarten (h part);Lower_Princes; -240 ; 	America/Lower_Princes
+SK; Slovakia;Bratislava; 120 ; 	Europe/Bratislava
+SI; Slovenia;Ljubljana; 120 ; 	Europe/Ljubljana
+SB; Solomon Islands;Guadalcanal; 660 ; 	Pacific/Guadalcanal
+SO; Somalia;Mogadishu; 180 ; 	Africa/Mogadishu
+ZA; South Africa;Johannesburg; 120 ; 	Africa/Johannesburg
+GS; South Georgia and the South Sandwich Islands;South_Georgia; -120 ; 	Atlantic/South_Georgia
+SS; South Sudan;Juba; 120 ; 	Africa/Juba
+ES; Spain;Ceuta; 120 ; 	Africa/Ceuta
+ES; Spain;Canary; 60 ; 	Atlantic/Canary
+ES; Spain;Madrid; 120 ; 	Europe/Madrid
+LK; Sri Lanka;Colombo; 330; 	Asia/Colombo
+SD; Sudan;Khartoum; 120 ; 	Africa/Khartoum
+SR; Suriname;Paramaribo; -180 ; 	America/Paramaribo
+SJ; Svalbard and Jan Mayen;Longyearbyen; 120 ; 	Arctic/Longyearbyen
+SZ; Swaziland;Mbabane; 120 ; 	Africa/Mbabane
+SE; Sweden;Stockholm; 120 ; 	Europe/Stockholm
+CH; Switzerland;Zurich; 120 ; 	Europe/Zurich
+SY; Syrian Arab Republic;Damascus; 180 ; 	Asia/Damascus
+TW; Taiwan Province of China;Taipei; 480 ; 	Asia/Taipei
+TJ; Tajikistan;Dushanbe; 300 ; 	Asia/Dushanbe
+TZ; Tanzania United Republic;Dar_es_Salaam; 180 ; 	Africa/Dar_es_Salaam
+TH; Thailand;Bangkok; 420 ; 	Asia/Bangkok
+TL; Timor-Leste;Dili; 540 ; 	Asia/Dili
+TG; Togo; Lome; 0; 	Africa/Lome
+TK; Tokelau;Fakaofo; 780 ; 	Pacific/Fakaofo
+TO; Tonga;Tongatapu; 780 ; 	Pacific/Tongatapu
+TT; Trinidad and Tobago;Port_of_Spain; -240 ; 	America/Port_of_Spain
+TN; Tunisia;Tunis; 60 ; 	Africa/Tunis
+TR; Turkey;Istanbul; 180 ; 	Europe/Istanbul
+TM; Turkmenistan;Ashgabat; 300 ; 	Asia/Ashgabat
+TC; Turks and Caicos Islands;Grand_Turk; -240 ; 	America/Grand_Turk
+TV; Tuvalu;Funafuti; 720 ; 	Pacific/Funafuti
+UG; Uganda;Kampala; 180 ; 	Africa/Kampala
+UA; Ukraine;Kyiv; 180 ; 	Europe/Kyiv
+UA; Ukraine;Simferopol; 180 ; 	Europe/Simferopol
+AE; United Arab Emirates;Dubai; 240 ; 	Asia/Dubai
+GB; United Kingdom;London; 60 ; 	Europe/London
+US; United States;Adak; -540 ; 	America/Adak
+US; United States;Anchorage; -480 ; 	America/Anchorage
+US; United States;Boise; -360 ; 	America/Boise
+US; United States;Chicago; -300 ; 	America/Chicago
+US; United States;Denver; -360 ; 	America/Denver
+US; United States;Detroit; -240 ; 	America/Detroit
+US; United States;Indianapolis; -240 ; America/Indiana/Indianapolis
+US; United States;Knox; -300 ; America/Indiana/Knox
+US; United States;Marengo; -240 ; America/Indiana/Marengo
+US; United States;Petersburg; -240 ; America/Indiana/Petersburg
+US; United States;Tell_City; -300 ; America/Indiana/Tell_City
+US; United States;Vevay; -240 ; America/Indiana/Vevay
+US; United States;Vincennes; -240 ; America/Indiana/Vincennes
+US; United States;Winamac; -240 ; America/Indiana/Winamac
+US; United States;Juneau; -480 ; 	America/Juneau
+US; United States;Louisville; -240 ; America/Kentucky/Louisville
+US; United States;Monticello; -240 ; America/Kentucky/Monticello
+US; United States;Los_Angeles; -420 ; 	America/Los_Angeles
+US; United States;Menominee; -300 ; 	America/Menominee
+US; United States;Metlakatla; -480 ; 	America/Metlakatla
+US; United States;New_York; -240 ; 	America/New_York
+US; United States;Nome; -480 ; 	America/Nome
+US; United States;Beulah; -300 ; America/North_Dakota/Beulah
+US; United States;Center; -300 ; America/North_Dakota/Center
+US; United States;New_Salem; -300 ; America/North_Dakota/New_Salem
+US; United States;Phoenix; -420 ; 	America/Phoenix
+US; United States;Sitka; -480 ; 	America/Sitka
+US; United States;Yakutat; -480 ; 	America/Yakutat
+US; United States;Honolulu; -600 ; 	Pacific/Honolulu
+UM; United States Minor Outlying Islands;Midway; -660 ; 	Pacific/Midway
+UM; United States Minor Outlying Islands;Wake; 720 ; 	Pacific/Wake
+UY; Uruguay;Montevideo; -180 ; 	America/Montevideo
+UZ; Uzbekistan;Samarkand; 300 ; 	Asia/Samarkand
+UZ; Uzbekistan;Tashkent; 300 ; 	Asia/Tashkent
+VU; Vanuatu;Efate; 660 ; 	Pacific/Efate
+VE; Venezuela Bolivarian Republic of;Caracas; -240 ; 	America/Caracas
+VN; Viet Nam;Ho_Chi_Minh; 420 ; 	Asia/Ho_Chi_Minh
+VG; Virgin Islands British;Tortola; -240 ; 	America/Tortola
+VI; Virgin Islands U.S.;St_Thomas; -240 ; 	America/St_Thomas
+WF; Wallis and Futuna;Wallis; 720 ; 	Pacific/Wallis
+YE; Yemen;Aden; 180 ; 	Asia/Aden
+ZM; Zambia;Lusaka; 120 ; 	Africa/Lusaka
+ZW; Zimbabwe;Harare; 120 ; 	Africa/Harare
+AX; Åland Islands; Mariehamn; 180 ; 	Europe/Mariehamn
