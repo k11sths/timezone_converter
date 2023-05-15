@@ -6,7 +6,13 @@ defmodule TimezoneConverterWeb.UserCityLive.CitySearchComponent do
     ~H"""
     <div>
       <.search_modal :if={@show} id="search-modal" show on_cancel={@on_cancel}>
-        <.search_input value={@query} phx-target={@myself} phx-keyup="do-search" phx-debounce="200" />
+        <.search_input
+          value={@query}
+          phx-target={@myself}
+          phx-keyup="do-search"
+          phx-focus="do-search"
+          phx-debounce="200"
+        />
         <.search_results cities={@cities} />
       </.search_modal>
     </div>

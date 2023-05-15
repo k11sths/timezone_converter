@@ -22,6 +22,7 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
      |> assign(:user_cities_ids, user_cities_ids)
      |> assign(:timezone, timezone)
      |> assign(:offset, offset)
+     |> assign(:live_clock, true)
      |> assign(:users_time, users_time), temporary_assigns: [form: nil]}
   end
 
@@ -48,12 +49,14 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
     users_time = DateTime.now!(timezone)
     offset = get_offset(users_time, timezone)
     user_cities = set_current_time(user_cities, offset)
+    if connected?(socket), do: Process.send_after(self(), :tick, 1_000)
 
     {:noreply,
      socket
      |> assign(:user_cities, user_cities)
      |> assign(:offset, offset)
-     |> assign(:users_time, users_time)}
+     |> assign(:users_time, users_time)
+     |> assign(:live_clock, true)}
   end
 
   def handle_event("set_current_time", %{"users_time" => users_time}, socket) do
@@ -68,7 +71,8 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
      socket
      |> assign(:user_cities, user_cities)
      |> assign(:offset, offset)
-     |> assign(:users_time, users_time)}
+     |> assign(:users_time, users_time)
+     |> assign(:live_clock, false)}
   end
 
   @impl true
@@ -115,6 +119,8 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
   end
 
   @impl true
+  def handle_info(:tick, %{assigns: %{live_clock: false}} = socket), do: {:noreply, socket}
+
   def handle_info(:tick, socket) do
     %{
       assigns: %{
