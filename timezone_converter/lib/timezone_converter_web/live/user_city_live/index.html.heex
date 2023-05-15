@@ -9,7 +9,9 @@
 
 <.table id="user_cities" rows={@user_cities}>
   <:col :let={user_city} label="City"><%= user_city.supported_city.name %></:col>
-  <:col :let={user_city} label="Time Now"><%= user_city.supported_city.gmt_offset %></:col>
+  <:col :let={user_city} label="Time Now">
+    <%= NaiveDateTime.to_string(user_city.time_now) %>
+  </:col>
   <:action :let={user_city}>
     <.link
       phx-click={JS.push("delete", value: %{id: user_city.id}) |> hide("##{user_city.id}")}
@@ -21,7 +23,7 @@
 </.table>
 
 <.modal
-  :if={@live_action in [:new, :edit]}
+  :if={@live_action in [:new]}
   id="user_city-modal"
   show
   on_cancel={JS.patch(~p"/user_cities")}
@@ -31,7 +33,7 @@
     id="search-results"
     title={@page_title}
     action={@live_action}
-    user_cities={@user_cities}
+    user_cities_ids={@user_cities_ids}
     query=""
     cities={[]}
     patch={~p"/user_cities"}

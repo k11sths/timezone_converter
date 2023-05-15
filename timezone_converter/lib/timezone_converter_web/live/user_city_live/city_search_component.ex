@@ -15,8 +15,7 @@ defmodule TimezoneConverterWeb.UserCityLive.CitySearchComponent do
 
   @impl true
   def handle_event("do-search", %{"value" => name}, socket) do
-    %{assigns: %{user_cities: user_cities}} = socket
-    user_cities_ids = Enum.map(user_cities, fn %{city_id: city_id} -> city_id end)
+    %{assigns: %{user_cities_ids: user_cities_ids}} = socket
 
     {:noreply,
      socket
