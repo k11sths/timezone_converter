@@ -7,11 +7,7 @@
   </:actions>
 </.header>
 
-<.table
-  id="user_cities"
-  rows={@user_cities}
-  row_click={fn user_city -> JS.navigate(~p"/user_cities/#{user_city}") end}
->
+<.table id="user_cities" rows={@user_cities}>
   <:col :let={user_city} label="City"><%= user_city.supported_city.name %></:col>
   <:col :let={user_city} label="Time Now"><%= user_city.supported_city.gmt_offset %></:col>
   <:action :let={user_city}>
