@@ -9,11 +9,14 @@ defmodule TimezoneConverter.UserCitiesFixtures do
   """
   def user_city_fixture(attrs \\ %{}) do
     {:ok, user_city} =
-      attrs
-      |> Enum.into(%{
-        city_id: 42,
-        user_id: 42
-      })
+      %TimezoneConverter.UserCities.UserCity{}
+      |> TimezoneConverter.UserCities.change_user_city(
+        attrs
+        |> Enum.into(%{
+          city_id: 42,
+          user_id: 1
+        })
+      )
       |> TimezoneConverter.UserCities.create_user_city()
 
     user_city

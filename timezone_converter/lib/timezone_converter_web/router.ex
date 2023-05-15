@@ -64,7 +64,7 @@ defmodule TimezoneConverterWeb.Router do
       live "/users/settings/confirm_email/:token", UserSettingsLive, :confirm_email
     end
 
-    live "/", UserCityLive.Index, :index
+    get "/", PageController, :home
     live "/user_cities", UserCityLive.Index, :index
     live "/user_cities/new", UserCityLive.Index, :new
     live "/user_cities/:id/edit", UserCityLive.Index, :edit

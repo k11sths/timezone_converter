@@ -11,3 +11,15 @@ alias TimezoneConverter.Cities
 |> Enum.each(fn %{gmt_offset: gmt_offset} = city ->
   Cities.create!(%{city | gmt_offset: String.to_integer(gmt_offset)})
 end)
+
+if Mix.env() == :test do
+  TimezoneConverter.Accounts.register_user(%{
+    "email" => "this@test1.com",
+    "password" => "number654321"
+  })
+
+  TimezoneConverter.Accounts.register_user(%{
+    "email" => "this@test2.com",
+    "password" => "number123456"
+  })
+end

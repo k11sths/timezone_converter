@@ -45,6 +45,6 @@ defmodule TimezoneConverterWeb.UserForgotPasswordLive do
     {:noreply,
      socket
      |> put_flash(:info, info)
-     |> redirect(to: ~p"/")}
+     |> redirect(to: ~p"/user_cities")}
   end
 end

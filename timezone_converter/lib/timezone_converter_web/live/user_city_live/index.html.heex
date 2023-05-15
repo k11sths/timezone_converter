@@ -1,8 +1,10 @@
 <.header>
-  <.button phx-click="reset_current_time" class="w-1/4">
-    Current
-  </.button>
-  <.simple_form for={@form} id="users_time" phx-submit="set_current_time" class="w-1/4">
+  <.simple_form
+    for={@form}
+    id="users_time"
+    phx-submit="set_current_time"
+    class="inline-flex items-center"
+  >
     <.input
       field={@form[:time]}
       type="time"
@@ -11,19 +13,25 @@
       value={"#{div(@users_time.hour, 10)}#{rem(@users_time.hour, 10)}:#{div(@users_time.minute, 10)}#{rem(@users_time.minute, 10)}"}
       errors={[]}
     />
+
     <:actions>
       <.button class="w-full">
         Submit
       </.button>
     </:actions>
   </.simple_form>
+  <.link phx-click="reset_current_time" class="w-1/20">
+    Reset Current Time
+  </.link>
 </.header>
+<br />
+<br />
 <br />
 <.header>
   Listing User cities
   <:actions>
     <.link patch={~p"/user_cities/new"}>
-      <.button>New User city</.button>
+      <.button>Add New City</.button>
     </.link>
   </:actions>
 </.header>

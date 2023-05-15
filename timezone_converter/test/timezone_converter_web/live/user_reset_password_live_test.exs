@@ -29,7 +29,7 @@ defmodule TimezoneConverterWeb.UserResetPasswordLiveTest do
 
       assert to == %{
                flash: %{"error" => "Reset password link is invalid or it has expired."},
-               to: ~p"/"
+               to: ~p"/user_cities"
              }
     end
 

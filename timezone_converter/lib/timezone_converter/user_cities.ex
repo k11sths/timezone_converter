@@ -40,7 +40,7 @@ defmodule TimezoneConverter.UserCities do
 
   """
   def get_user_city(id), do: Repo.get(UserCity, id)
-  def get_user_city!(id), do: Repo.get!(UserCity, id)
+  def get_user_city!(id), do: Repo.get!(UserCity, id) |> Repo.preload(:supported_city)
 
   @doc """
   Creates a user_city.
