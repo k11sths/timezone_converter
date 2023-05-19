@@ -93,7 +93,7 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
       |> UserCities.create_user_city()
 
     case create_result do
-      {:ok, %{id: id, supported_city: %{gmt_offset: gmt_offset}} = user_city} ->
+      {:ok, %{supported_city: %{id: supported_city_id, gmt_offset: gmt_offset}} = user_city} ->
         time_now = get_datetime_now(timezone) |> DateTime.add(gmt_offset + offset, :minute)
         user_city = Map.put(user_city, :time_now, time_now)
 
@@ -101,7 +101,7 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
          socket
          |> put_flash(:info, "User city added successfully")
          |> assign(:user_cities, [user_city | user_cities])
-         |> assign(:user_cities_ids, [id | user_cities_ids])}
+         |> assign(:user_cities_ids, [supported_city_id | user_cities_ids])}
 
       {:error, _} ->
         {:noreply, put_flash(socket, :info, "Failed to add user city")}
@@ -110,12 +110,19 @@ defmodule TimezoneConverterWeb.UserCityLive.Index do
 
   @impl true
   def handle_event("delete", %{"id" => id}, socket) do
-    %{assigns: %{user_cities: user_cities}} = socket
+    %{assigns: %{user_cities: user_cities, user_cities_ids: user_cities_ids}} = socket
     user_city = UserCities.get_user_city!(id)
-    {:ok, user_city} = UserCities.delete_user_city(user_city)
-    updated_user_cities = Enum.reject(user_cities, fn %{id: id} -> user_city.id == id end)
 
-    {:noreply, assign(socket, :user_cities, updated_user_cities)}
+    {:ok, %{supported_city: %{id: supported_city_id}} = user_city} =
+      UserCities.delete_user_city(user_city)
+
+    updated_user_cities = Enum.reject(user_cities, fn %{id: id} -> user_city.id == id end)
+    updated_user_cities_ids = Enum.reject(user_cities_ids, fn id -> supported_city_id == id end)
+
+    {:noreply,
+     socket
+     |> assign(:user_cities, updated_user_cities)
+     |> assign(:user_cities_ids, updated_user_cities_ids)}
   end
 
   @impl true
