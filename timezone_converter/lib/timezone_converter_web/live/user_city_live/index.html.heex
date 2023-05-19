@@ -1,72 +1,51 @@
-<.header>
-  <.simple_form
-    for={@form}
-    id="users_time"
-    phx-submit="set_current_time"
-    class="inline-flex items-center"
-  >
-    <.input
-      field={@form[:time]}
-      type="time"
-      name="users_time"
-      id="users_time"
-      value={"#{div(@users_time.hour, 10)}#{rem(@users_time.hour, 10)}:#{div(@users_time.minute, 10)}#{rem(@users_time.minute, 10)}"}
-      errors={[]}
-    />
-
-    <:actions>
-      <.button class="w-full">
-        Submit
-      </.button>
-    </:actions>
-  </.simple_form>
-  <.link phx-click="reset_current_time" class="w-1/20">
-    Reset Current Time
-  </.link>
-</.header>
-<br />
-<br />
-<br />
-<.header>
-  Listing User cities
-  <:actions>
-    <.link patch={~p"/user_cities/new"}>
-      <.button>Add New City</.button>
-    </.link>
-  </:actions>
-</.header>
-
-<.table id="user_cities" rows={@user_cities}>
-  <:col :let={user_city} label="City"><%= user_city.supported_city.name %></:col>
-  <:col :let={user_city} label="Time Now">
-    <%= "#{div(user_city.time_now.hour, 10)}#{rem(user_city.time_now.hour, 10)}:#{div(user_city.time_now.minute, 10)}#{rem(user_city.time_now.minute, 10)}" %>
-  </:col>
-  <:action :let={user_city}>
-    <.link
-      phx-click={JS.push("delete", value: %{id: user_city.id}) |> hide("##{user_city.id}")}
-      data-confirm="Are you sure?"
-    >
-      Delete
-    </.link>
-  </:action>
-</.table>
-
-<.modal
-  :if={@live_action in [:new]}
-  id="user_city-modal"
-  show
-  on_cancel={JS.patch(~p"/user_cities")}
->
+<div>
   <.live_component
-    module={TimezoneConverterWeb.UserCityLive.CitySearchComponent}
-    id="search-results"
-    title={@page_title}
-    action={@live_action}
-    user_cities_ids={@user_cities_ids}
-    query=""
-    cities={[]}
-    patch={~p"/user_cities"}
-    show={true}
-    on_cancel={%JS{}}
+    module={TimezoneConverterWeb.Live.UserCityLive.TimeLiveComponent}
+    form={@form}
+    users_time={@users_time}
+    id="users_time"
   />
-</.modal>
+  <.header>
+    Listing User cities
+    <:actions>
+      <.link patch={~p"/user_cities/new"}>
+        <.button>Add New City</.button>
+      </.link>
+    </:actions>
+  </.header>
+
+  <.table id="user_cities" rows={@user_cities}>
+    <:col :let={user_city} label="City"><%= user_city.supported_city.name %></:col>
+    <:col :let={user_city} label="Time Now">
+      <%= "#{div(user_city.time_now.hour, 10)}#{rem(user_city.time_now.hour, 10)}:#{div(user_city.time_now.minute, 10)}#{rem(user_city.time_now.minute, 10)}" %>
+    </:col>
+    <:action :let={user_city}>
+      <.link
+        phx-click={JS.push("delete", value: %{id: user_city.id}) |> hide("##{user_city.id}")}
+        data-confirm="Are you sure?"
+      >
+        Delete
+      </.link>
+    </:action>
+  </.table>
+
+  <.modal
+    :if={@live_action in [:new]}
+    id="user_city-modal"
+    show
+    on_cancel={JS.patch(~p"/user_cities")}
+  >
+    <.live_component
+      module={TimezoneConverterWeb.UserCityLive.CitySearchComponent}
+      id="search-results"
+      title={@page_title}
+      action={@live_action}
+      user_cities_ids={@user_cities_ids}
+      query=""
+      cities={[]}
+      patch={~p"/user_cities"}
+      show={true}
+      on_cancel={%JS{}}
+    />
+  </.modal>
+</div>

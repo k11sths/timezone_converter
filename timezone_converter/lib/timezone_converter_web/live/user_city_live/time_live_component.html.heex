@@ -1,0 +1,23 @@
+<div>
+  <.header>
+    <.simple_form for={@form} phx-submit="set_current_time" class="inline-flex items-center">
+      <.input
+        field={@form[:time]}
+        type="time"
+        name="users_time"
+        id="users_time"
+        value={"#{div(@users_time.hour, 10)}#{rem(@users_time.hour, 10)}:#{div(@users_time.minute, 10)}#{rem(@users_time.minute, 10)}"}
+        errors={[]}
+      />
+
+      <:actions>
+        <.button class="w-full">
+          Submit
+        </.button>
+      </:actions>
+    </.simple_form>
+    <.link phx-click="reset_current_time" class="w-1/20">
+      Reset Current Time
+    </.link>
+  </.header>
+</div>
